@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Winter Collection</title>
+	<link rel="stylesheet" type="text/css" href="./style.css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<header>
+		<!-- First-header part Starts -->
+		<div class="header1">
+			<section class="first">
+				<img src="./Assets/header_icon.png" alt="icon.png">
+				<div class="gap">
+					US&nbsp;<select></select>&nbsp; &nbsp; +91 8431040457
+				</div>
+			</section>
+			<nav>
+				<ul>
+					<li class="firstli">
+						<a href="#">MyAccount</a>&nbsp; &nbsp;
+					</li>
+					<li class="firstli">
+						<a href="#">WishList</a>
+					</li>
+					<li class="firstli">
+						<a href="#">Shopping</a>
+					</li>
+					<li class="firstli">
+						<a href="#">Cart</a>
+					</li>
+					<li class="firstli">
+						<a href="#">Checkout</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- First-header ends -->
+		<!-- Second-header Starts -->
+		<section class="Second-h2">
+			<nav><img src="./Assets/Logo.png" id="second_headerimg" alt="AIT_logo"></nav>
+			<nav>
+
+				<ul class="Second-ul">
+					<li class="firstli">
+						<a href="#" class="a">Home</a>
+
+					</li>
+					<li class="firstli">
+						<a href="#" class="a">Category</a>
+					</li>
+					<li class="firstli">
+						<a href="#" class="a">Latest <sup class="sup1">HOT</sup></a>
+
+					</li>
+					<li class="firstli">
+						<a href="#" class="a">Blog</a>
+					</li>
+					<li class="firstli">
+						<a href="#" class="a">Pages</a>
+					</li>
+					<li class="firstli">
+						<a href="#" class="a">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+			<nav>
+				<ul>
+					<li class="firstli">
+						<input id="box" type="text" name="search box" placeholder="search products" />
+					</li>
+					<i id="search_icon" class="fa-solid fa-magnifying-glass" id="searchicon"></i>
+					<i class="fa-solid fa-heart"><sup class="sup2">02</sup></i>
+					<i class="fa-solid fa-cart-shopping"><sup class="sup3">02</sup></i>
+					<button class="button_one" id="sin">Sign In</button>
+					<!-- ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+
+					<div id="signup">
+						<form id="signupform" name="myform" method="post" action="abc.jsp"
+							onsubmit="return validateform()">
+							<h1>Login Form</h1>
+							<label for="em">Email: <span class="mandatory">*</span></label>
+							<input type="Email" name="Email" id="em" placeholder="Enter Your Email">
+							<span class="dNone" id="pErr">Please Enter Email</span> <br>
+
+							<label for="pwd">Password: <span class="mandatory">*</span></label>
+							<input type="Password" name="password" id="pwd" placeholder="Enter Your Password">
+							<span class="dNone" id="prr">Please Enter Password</span> <br>
+
+							<input type="button" name="Login" id="Login" value="Login">
+						</form>
+					</div>
+					<!-- ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -->
+				</ul>
+			</nav>
+		</section>
+	</header>
+	<!-- header part ends here -->
+	<!-- Banner part starts here -->
+	<section>
+		<img src="./Assets/h1_hero.jpg" alt="hero" class="banner_bg" />
+
+	</section>
+	<section>
+		<img src="./Assets/hero_man.png" alt="image" class="banner_girl" />
+	</section>
+	<section id="banner_text">
+		<p class="text_italic">60% Discount</p>
+		<p class="text_big">Winter<br>Collection</p>
+		<P class="para">Best Cloth Collection By 2020!</P>
+		<button class="button_two">Shop Now</button>
+	</section>
+	<!-- Banner part ends here -->
+	<br><br><br><br>
+	<!-- Shop by category starts here -->
+	<h1>Shop By Category</h1>
+	<section id="cats">
+		<img src="./Assets/cat1.jpg" alt="cat1" id="image1">
+		<img src="./Assets/cat2.jpg" alt="cat2" id="image2">
+		<img src="./Assets/cat3.jpg" alt="cat3" id="image3">
+	</section>
+	<div class="catone">
+		<h4 class="cat1text1">Owmen'S</h4>
+		<button class="button_three">Best New Deals</button>
+		<p class="cat1text2">New Collection</p>
+	</div>
+	<div class="cattwo">
+		<h4 class="cat2text1">Discount</h4>
+		<h4 class="cat2text2">Winter Cloth</h4>
+		<p class="cat2text3">New Collection</p>
+	</div>
+	<div class="catthree">
+		<h4 class="cat3text1">Man'S Cloth</h4>
+		<button class="button_four">Best New Deals</button>
+		<h4 class="cat3text2">New Collection</h4>
+	</div>
+	<!-- shop by category ends here -->
+	<br><br>
+	<!-- Latest Products starts here -->
+	<section class="latest">
+		<p class="para1">Latest Products</p>
+		<nav>
+
+			<ul class="lp">
+
+				<li class="lpro">
+					<a style="color: red;" href="#" id="li">All</a>
+				</li>
+				<li class="lpro">
+					<a href="#" id="li">New</a>
+				</li>
+				<li class="lpro">
+					<a href="#" id="li">Featured</a>
+				</li>
+				<li class="lpro">
+					<a href="#" id="li">Offer</a>
+				</li class="lpro">
+			</ul>
+		</nav>
+	</section>
+	<hr><span></span></hr>
+		<section class="Latest_Products_imgs">
+			<img src="./Assets/product1.png" alt="product1" />
+			<img src="./Assets/product2.png" alt="product2" />
+			<img src="./Assets/product3.png" alt="product3" />
+			<section id="latest">
+				<div>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+				<div>
+					<p>Green Dress wIth Details</p>
+				</div>
+				<div>
+					<label>$40</label>
+					<strike>$60.00</strike>
+				</div>
+			</section>
+			<section id="latest">
+				<div>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+				<div>
+					<p>Green Dress wIth Details</p>
+				</div>
+				<div>
+					<label>$40</label>
+					<strike>$60.00</strike>
+				</div>
+			</section>
+			<section id="latest">
+				<div>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+				<div>
+					<p>Green Dress wIth Details</p>
+				</div>
+				<div>
+					<label>$40</label>
+					<strike>$60.00</strike>
+				</div>
+			</section>
+
+			<img src="./Assets/product4.png" alt="product4" />
+			<img src="./Assets/product5.png" alt="product5" />
+			<img src="./Assets/product6.png" alt="product6" />
+
+			<section id="latest">
+				<div>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+				<div>
+					<p>Green Dress wIth Details</p>
+				</div>
+				<div>
+					<label>$40</label>
+					<strike>$60.00</strike>
+				</div>
+			</section>
+			<section id="latest">
+				<div>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+				<div>
+					<p>Green Dress wIth Details</p>
+				</div>
+				<div>
+					<label>$40</label>
+					<strike>$60.00</strike>
+				</div>
+			</section>
+			<section id="latest">
+				<div>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i id="fa-star_Latest_products" class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+				<div>
+					<p>Green Dress wIth Details</p>
+				</div>
+				<div>
+					<label>$40</label>
+					<strike>$60.00</strike>
+				</div>
+			</section>
+			<sup class="new_sup1">New</sup>
+			<sup class="new_sup2">New</sup>
+			<sup class="new_sup3">New</sup>
+		</section>
+
+		<!-- Latest Products Ends here -->
+
+		<!-- Second Banner Starts  Here -->
+		<div class="card_margin">
+			<center id="center_card">
+				<img src="./Assets/card.png" alt="card">
+				<img src="./Assets/card-man.png" alt="card-man">
+				<img src="./assets/card-shape.png" alt="card-shape">
+			</center>
+			<p id="manz">Manz</p>
+			<section class="second_banner_content">
+				<p class="second_banner_p1"><b>Find The Best Product <br> from Our Shop</b></p>
+				<p class="second_banner_p2">Designers who are intersten creating state ofthe</p>
+				<button class="second_banner_button">Shop Now</button>
+			</section>
+		</div>
+		<!-- Second Banner Ends Here -->
+
+		<!-- Best COllections Starts here -->
+		<div class="best_collection">
+			<section class="best_collection_part1">
+				<p class="best_collection_part1_best"><br><br><b>Best Collection <br> of This Month</b></p>
+				<p class="best_collection_part1_design">Designers who are intersten crea.</p>
+				<button class="best_collection_part1_button">Shop Now</button>
+				<img class="best_collection_img" src="./assets/collection1.png" alt="collection1" />
+			</section>
+			<section>
+				<img src="./assets/collection2.png" alt="collection2" />
+			</section>
+			<section id="best_collection_part3">
+				<p><br><br><b>Menz Winter <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Jacket</b></p>
+				<img src="./assets/collection3.png" alt="collection3" />
+				<p id="collection4"><b>Menz Winter<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Jacket</b></p>
+				<img src="./assets/collection4.png" alt="collection4" />
+				<p><br><br><b>Menz Winter <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Jacket</b></p>
+				<img src="./assets/collection5.png" alt="collection5" />
+			</section>
+		</div>
+		<!-- Best COllections Ends here -->
+
+		<!-- Latest Offer News Starts Here-->
+		<div class="latest_offer_parent">
+			<img src="./assets/latest-offer.png" alt="Offer" />
+			<img src="./assets/latest-man.png" alt="latest-man" />
+			<p id="offer_news"><b>Get Our <br>Latest Offer News</b></p>
+			<p id="offer_news_scrb">Subscribe news later</p>
+			<input type="email" placeholder="Your email here" id="latest_offer_email" />
+			<button id="offer_button_shop">Shop Now</button>
+		</div>
+		<!-- Latest Offer News Ends Here-->
+
+		<!-- Latest Offer Footer Starts Here-->
+		<div class="latest_offer_footer">
+			<section class="latest_offer_footer_font1">
+				<i class="fa-solid fa-table-columns"></i>
+				<h3>Free Shipping Method</h3>
+				<p>aorem ixpsacdolor sit <br>
+					ameasecur adipisicing elitsf <br>
+					edasd.
+				</p>
+			</section>
+			<section class="latest_offer_footer_font1">
+				<i class="fa-solid fa-unlock-keyhole"></i>
+				<h3>Secure Payemnt System</h3>
+				<p>aorem ixpsacdolor sit <br>
+					ameasecur adipisicing elitsf <br>
+					edasd.
+				</p>
+			</section>
+			<section class="latest_offer_footer_font1">
+				<i class="fa-solid fa-arrows-rotate"></i>
+				<h3>Secure Payemnt System</h3>
+				<p>aorem ixpsacdolor sit <br>
+					ameasecur adipisicing elitsf <br>
+					edasd.
+				</p>
+			</section>
+		</div>
+		<!-- Latest Offer Footer Ends Here-->
+
+		<!-- Gallery Starts Here -->
+		<div class="gallery">
+			<img src="./assets/gallery1.jpg" alt="gallery1" />
+			<img src="./assets/gallery2.jpg" alt="gallery2" />
+			<img src="./assets/gallery3.jpg" alt="gallery3" />
+			<img src="./assets/gallery4.jpg" alt="gallery4" />
+			<img src="./assets/gallery5.jpg" alt="gallery5" />
+		</div>
+		<br><br><br>
+		<!-- Gallery Ends Here -->
+
+		<!-- footer Starts Here -->
+		<footer>
+			<div class="divone">
+				<img src="./assets/Logo.png" alt="AIT_logo_footer" / class="footerimg">
+				<p class="b">#63, 1st Floor, 16th Main, 8th Cross<br> BTM 1st Stage, BTM Layout, <br>Bengaluru,
+					Karnataka 560029</p>
+			</div>
+			<div class="divtwo">
+				<h3>Quick Links</h3>
+				<li>
+					<a href="#" class="b">About</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Offers & Discounts</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Get Coupon</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Contact Us</a>
+				</li>
+			</div>
+			<div class="divthree">
+				<h3>New Products</h3>
+				<li>
+					<a href="#" class="b">Woman Cloth</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Fashion Accessories</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Man Accessories</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Rubber mad Toys</a>
+				</li>
+			</div>
+			<div class="divfour">
+				<h3>Support</h3>
+				<li>
+					<a href="#" class="b">Frequently Asked Questions</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Terms & Conditions</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Privacy Policy</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Privacy Policy</a>
+				</li>
+				<br>
+				<li>
+					<a href="#" class="b">Report a Payment Issue</a>
+				</li>
+			</div>
+		</footer>
+		<!-- footer about -->
+		<div class="Copyright">
+			<p class="fp1">Copyright 2023 </p>
+			<i id="fa-copyright" class="fa-regular fa-copyright"></i>
+			<p class="fp">All rights reserved | This template is made with</p>
+			<i id="fa-heart" class="fa-solid fa-heart"></i>
+			<p class="by-1"> by</p>
+			<p id="fa-Mur">Mr. Murali Pagadala</p>
+			<i class="fa-brands fa-twitter" id="fimg"></i>
+			<i class="fa-brands fa-facebook-f" id="fimg"></i>
+			<i class="fa-brands fa-behance" id="fimg"></i>
+			<i class="fa-solid fa-globe" id="fimg"></i>
+		</div>
+		<!-- JS starts hereffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -->
+		<script>
+
+			document.getElementById('sin').addEventListener("click", function () {
+				document.getElementById('signupform').style.display = "block";
+			})
+
+			document.getElementById('sin').addEventListener("doubleclick", function () {
+				document.getElementById('signupform').style.display = "none";
+			})
+			// -----------------------------------------------------------------------------------------------
+			document.getElementById('Login').addEventListener("click", function () {
+				let email, pswd;
+				email = document.getElementById("em").value;
+				pswd = document.getElementById("pwd").value;
+
+				if (email == "") {
+					document.getElementById('pErr').style.display = "block";
+				}
+				else {
+					document.getElementById('pErr').style.display = "none";
+				}
+
+				if (pswd == "") {
+					document.getElementById('prr').style.display = "block";
+				}
+				else {
+					document.getElementById('prr').style.display = "none";
+				}
+
+				if (email != "" && pswd != "") {
+					alert("User loggedin Successfully");
+				}
+			})
+		</script>
+		<!-- JS ends here fffffffffffffffffffffffffffffffffffffffffffffffffffffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhfffffff -->
+
+</body>
+
+</html>
